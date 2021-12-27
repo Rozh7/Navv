@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.maria-article{
+    background-color: rgb(56, 119, 98);
+    width: 700px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.maria-coment{
+    color: white;
+    margin: 0px 0px 20px 30px;
+    line-height: 1.5;
+}
+
+.maria-name{
+    color:white;
+    margin: 0px 0px 10px 30px;
+}
+
+.company{
+    color: white;
+    margin: 0px 0px 0px 30px;
+}
+svg{
+    width: 38px;
+}
+
+img{
+    margin-left: 60px;
+    border-radius: 10px;
+    transform: scale(1.25);
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.253);
+    transition: .7s;
+}
+
+.nextt{
+    width: 10px;
+    height: 10px;
+    background-color: blueviolet;
+}
+
+.left{
+    stroke: rgb(56, 119, 98);
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.432);
+    cursor: pointer;
+}
+
+.right{
+    cursor: pointer;
+    stroke: rgb(56, 119, 98);
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%,-50%);
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.432);
+
+}
+button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: solid 2px rgb(56, 119, 98);
+    cursor: pointer;
+    background-color: white;
+}
+.dots{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,30px);
+}
+
+.bt1{
+    background-color: rgb(56, 119, 98);
+}
+
+img:hover{
+    transform: scale(1);
+}
